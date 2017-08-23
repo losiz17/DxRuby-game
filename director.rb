@@ -8,9 +8,10 @@ class Director
     @speed = 1 / 60.0
     @objects = {}
 
+   
     [
     
-      [WALL_WIDTH, 100, 100, WALL_WIDTH],                                     # è·äQíIÇªÇÃÇP
+      [WALL_WIDTH, 100, 100, WALL_WIDTH]                                 # è·äQíIÇªÇÃÇP
     ].each do |x, y, w, h|
       add_obj(Wall.new(x, y, w, h))
     end
