@@ -26,6 +26,7 @@ director = Director.new
 tmp = 0
 
 goal=Image.load('images/goal.png')
+goal.set_color_key([0,0,0])
 
 space = CP::Space.new
 space.gravity = CP::Vec2.new(0, 100)
