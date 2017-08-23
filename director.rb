@@ -33,7 +33,7 @@ class Director
     @objects.values.each {|obj| obj.draw }
   end
 
- private
+ #private
 
  
   def add_obj(obj)
