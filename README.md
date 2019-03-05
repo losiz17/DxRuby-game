@@ -1,4 +1,4 @@
-## dxRuby-game
+## DxRuby-game
 * RubyCamp (2017summer)
 * コロちゃんず
 
